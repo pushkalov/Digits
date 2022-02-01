@@ -1,14 +1,14 @@
 .footer {
   display: flex;
   flex-direction: column;
-  // width: 90%;
+  align-items: center;
   margin: 0 20px;
+  // width: 100%;
+  box-sizing: border-box;
 
   &__top {
     display: flex;
-    // min-width: 90%;
     margin: 0 20px;
-    // max-width: 1180px;
     justify-content: space-between;
     margin-top: 70px;
     padding-bottom: 105px;
@@ -23,7 +23,10 @@
     
     @include Tablet {
       flex-direction: column;
-      width: 280px;
+      flex-wrap: wrap;
+      height: 500px;
+      // width: 280px;
+      width: 100%;
       margin: 40px 20px 20px;
       padding-bottom: 0;
     }
@@ -41,7 +44,7 @@
 
       @include Tablet {
         margin-bottom: 30px;
-        width: 310px;
+        width: 250px;
       }
 
       &-title {
@@ -128,9 +131,10 @@
   }
 
   &__bottom {
-    margin: 53px 0 107px;
+    margin: 53px 20px 107px;
     display: flex;
     justify-content: space-between;
+    width: 95%;
 
     @include miniTablet {
       flex-direction: column-reverse;
