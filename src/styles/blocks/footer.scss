@@ -25,7 +25,6 @@
       flex-direction: column;
       flex-wrap: wrap;
       height: 500px;
-      // width: 280px;
       width: 100%;
       margin: 40px 20px 20px;
       padding-bottom: 0;
@@ -97,6 +96,11 @@
           height: 16px;
           background-repeat: no-repeat;
           margin: 10px 25px 20px 0;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
         }
 
         &--2 {
@@ -104,6 +108,11 @@
           width: 16px;
           background-repeat: no-repeat;
           margin: 10px 25px 20px 0;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
         }
 
         &--3 {
@@ -111,6 +120,11 @@
           width: 16px;
           background-repeat: no-repeat;
           margin: 10px 25px 20px 0;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
         }
 
         &--4 {
@@ -118,6 +132,11 @@
           width: 16px;
           background-repeat: no-repeat;
           margin: 10px 25px 20px 0;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
         }
 
         &--5 {
@@ -125,6 +144,11 @@
           width: 16px;
           background-repeat: no-repeat;
           margin: 10px 0;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
         }
       }
     }
